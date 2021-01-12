@@ -1,0 +1,12 @@
+{
+    "name": "Buy",
+    "version": "1.0",
+    "description": "It buys stuff",
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js":    ["js/script.js"]
+        }
+    ],
+    "manifest_version": 2
+}
